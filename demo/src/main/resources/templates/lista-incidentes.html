@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Comunidades</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body style="	background-image: url(&quot;https://crm.io/images/blog/crm-for-small-business.png?v=1684325902759464909&quot;);	background-position: top left;	background-size: 100%;	background-repeat: repeat;">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="">
+    <div class="container-fluid">
+      <a class="navbar-brand" th:href="@{/index}">All Active Incidents</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="btn btn-success" aria-current="page" th:href="@{/users}">Users<br></a><a class="btn btn-warning" aria-current="page" th:href="@{/communities}">Communities<br></a><a class="btn btn-secondary" aria-current="page" th:href="@{/user/profile}">Profile<br></a><a class="btn btn-danger" aria-current="page" th:href="@{/communities/{communityId}/incidente/{incidenteId}/close}">Logout</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="row col-md-10">
+      <h2 class="text-dark">List of All Active Incidents</h2>
+    </div>
+    <table class="table table-bordered table-hover">
+      <thead class="table-dark">
+        <tr>
+          <th>Obervation&nbsp;</th>
+          <th>Service</th>
+          <th>Type</th>
+          <th style="">Actions</th>
+        </tr>
+      </thead>
+      <tbody style="">
+      <tr th:each="incidente : ${community.incidente}" style="">
+        <td th:if="${incidente.horaDeCierre == null}" class="table-primary">
+          <span th:text="${incidente.observaciones}"></span>
+        </td>
+        <td th:if="${incidente.horaDeCierre == null}" class="table-primary">
+          <span th:text="${incidente.servicioDto.nombre}"></span>
+        </td>
+        <td th:if="${incidente.horaDeCierre == null}" class="table-primary">
+          <span th:text="${incidente.servicioDto.tipoServicio.nombre}"></span>
+        </td>
+        <td th:if="${incidente.horaDeCierre == null}" class="table-primary">
+          <a class="btn btn-danger" aria-current="page" th:href="@{/communities/{communityId}/incidente/{incidenteId}/close(communityId=${incidente.comunidadDto.id},incidenteId=${incidente.id})}">Close Incident</a>
+        </td>
+      </tr>
+
+      </tbody>
+    </table>
+  </div>
+  <div th:if="${community == null}">
+    <p style="">No active incidents found.</p>
+  </div>
+  <div class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12"></div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12"></div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12"></div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12"></div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12"></div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12"></div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12"><img class="img-fluid d-block rounded-circle" src="https://upload.wikimedia.org/wikipedia/commons/6/67/UTN_logo.jpg" width="100"></div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

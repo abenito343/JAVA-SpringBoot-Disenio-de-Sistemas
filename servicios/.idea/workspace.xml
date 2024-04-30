@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cdac3ac4-8cf0-47db-952b-7e8a7b1f11e4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/services/ServiciosApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/services/modelo/Establecimiento.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/services/modelo/LineaDeTransporte.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/services/modelo/Servicios/ConjuntoDeServicios.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/services/modelo/Servicios/Servicio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/services/modelo/Servicios/ServicioSimple.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/services/modelo/Tipos/TipoDeEstablecimiento.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/services/modelo/Tipos/TipoDeServicio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/services/modelo/Tipos/TipoEntidad.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/services/modelo/Ubicacion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/services/modelo/Usuario/Comunidad.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/services/modelo/Usuario/Membresia.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/services/modelo/Usuario/Password/IPasswordValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/services/modelo/Usuario/Password/OwaspPasswordValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/services/modelo/Usuario/Password/PasswordInput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/services/modelo/Usuario/Password/RegexPasswordValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/services/modelo/Usuario/Password/ValidPasswordManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/services/modelo/Usuario/Password/defaultPasswordValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/services/modelo/Usuario/Usuario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/10-million-password-list-top-10000.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/services/ServiciosApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2Yj7goKLodoJ8QSdOsHHUyjvKtx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/facun/OneDrive/Escritorio/TPA/demo"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cdac3ac4-8cf0-47db-952b-7e8a7b1f11e4" name="Changes" comment="" />
+      <created>1701027260072</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701027260072</updated>
+    </task>
+    <servers />
+  </component>
+</project>

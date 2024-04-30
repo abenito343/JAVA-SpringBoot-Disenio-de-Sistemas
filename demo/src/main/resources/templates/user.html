@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>User Profile</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body style="	background-image: url(https://st.depositphotos.com/1152339/4414/i/950/depositphotos_44145399-stock-photo-advertising-concept-business-man-on.jpg);	background-position: top left;	background-size: 100%;	background-repeat: repeat;">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="">
+    <div class="container-fluid">
+      <a class="navbar-brand" th:href="@{/index}" contenteditable="true">User Profile</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="btn btn-warning" aria-current="page" th:href="@{/communities}">Communities<br></a><a class="btn btn-success" aria-current="page" th:href="@{/users}">Users<br></a><a class="btn btn-danger" aria-current="page" th:href="@{/logout}">Logout</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action active"> Profile data </a>
+            <a href="#" class="list-group-item list-group-item-action">
+              <p th:text="'Name: ' + ${user.firstName}"></p>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+              <p th:text="'Surname: ' + ${user.lastName}"></p>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+              <p th:text="'Email: ' + ${user.email}"></p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div th:if="${user == null}">
+    <p>No se encontró información del usuario.</p>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12"></div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12"></div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12"></div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12"></div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12"></div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12"><img class="img-fluid d-block rounded-circle" src="https://upload.wikimedia.org/wikipedia/commons/6/67/UTN_logo.jpg" width="100"></div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
